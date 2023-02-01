@@ -4,6 +4,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		
+		// ESERCIZIO 1
+		
 		Cane testCane = new Cane ();
 		
 		testCane.dormi();
@@ -33,6 +35,9 @@ public class Main {
 		testDelfino.dormi();
 		testDelfino.verso();
 		testDelfino.mangia();
+		
+		// ------
+		// ESERCIZIO 2
 
 	}
 
