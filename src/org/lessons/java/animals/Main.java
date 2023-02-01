@@ -38,6 +38,10 @@ public class Main {
 		
 		// ------
 		// ESERCIZIO 2
+		
+		Azione azione = new Azione();
+		azione.faiVolare(testAquila);
+		azione.faiNuotare(testDelfino);
 
 	}
 
