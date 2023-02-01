@@ -8,6 +8,7 @@ public class Main {
 		
 		Cane testCane = new Cane ();
 		
+		System.out.println("Oggetto: Cane");
 		testCane.dormi();
 		testCane.verso();
 		testCane.mangia();
@@ -16,6 +17,7 @@ public class Main {
 		
 		Passerotto testPasserotto = new Passerotto ();
 		
+		System.out.println("Oggetto: Passerotto");
 		testPasserotto.dormi();
 		testPasserotto.verso();
 		testPasserotto.mangia();
@@ -24,6 +26,7 @@ public class Main {
 		
 		Aquila testAquila = new Aquila ();
 		
+		System.out.println("Oggetto: Aquila");
 		testAquila.dormi();
 		testAquila.verso();
 		testAquila.mangia();
@@ -32,6 +35,7 @@ public class Main {
 		
 		Delfino testDelfino = new Delfino ();
 		
+		System.out.println("Oggetto: Delfino");
 		testDelfino.dormi();
 		testDelfino.verso();
 		testDelfino.mangia();
@@ -39,9 +43,22 @@ public class Main {
 		// ------
 		// ESERCIZIO 2
 		
+		System.out.println("-----ESERCIZIO 2");
+		
 		Azione azione = new Azione();
+		
+		System.out.print("Test faiVolare con aquila: ");
 		azione.faiVolare(testAquila);
+		System.out.print("Test faiNuotare con delfino: ");
 		azione.faiNuotare(testDelfino);
+		
+		
+		
+//		if (arrayAnimali instanceof Inuotante)
+//			azione.faiNuotare(arrayAnimali);
+//		else
+//			azione.faiVolare(arrayAnimali);
+		
 
 	}
 
